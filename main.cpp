@@ -1,13 +1,31 @@
 #include <iostream>
 using namespace std;
 
+void print_menu(string name);
+
 int main (int arg_count,char *args[]){
-    cout<<"hello"<<endl;
-    for(int i =0 ; i>4;i++){
-    for(int j =0 ; j>4;j++){
-    for(int k =0 ; k>4;k++){
-        cout<<"hello"<<endl;
-    }    }
-        }
+    if(arg_count>1)
+    {
+        string name(args[1]);
+        print_menu(name);
+    }else{
+    cout<<"hello world"<<endl;
+
+    }
+
     return 0;
+}
+void print_menu(string name){
+    int choice;
+        cout<<"hello"<<endl;
+        cout<<"hello"<<endl;
+        cout<<"hello"<<endl;
+        cout<<"hello"<<endl;
+        cout<<"hello"<<endl;
+        cin>>choice;
+
+        if(choice==4)
+        exit(0);
+        else
+        cout<<"sorry choice not implemented yet\n";
 }
