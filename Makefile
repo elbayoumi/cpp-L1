@@ -10,7 +10,7 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = SimpleList
 EXT = .cpp
-SRCDIR = src
+SRCDIR = /media/atboo/SSSUB/SimpleList
 OBJDIR = obj
 
 ############## Do not change anything from here downwards! #############
